@@ -14,10 +14,10 @@ class _AlarmScreenState extends State<AlarmScreen> {
   List listDate = [];
   List listTime = [];
 
-  void addToList() {
-    listDate.add(date);
-    listTime.add(time);
-  }
+  //void addToList() {
+  //listDate.add(date);
+   // listTime.add(time);
+  //}
   //  void addToList(String date ,String time) {
   //   listDate.add(date);
   //   listTime.add(time);
@@ -33,15 +33,15 @@ class _AlarmScreenState extends State<AlarmScreen> {
               print(value);
               date = value;
             });
-            addToList();
-          // listDate.add(date);
+            //addToList();
+           listDate.add(date);
           });
           showTimeDialog().then((value) {
             setState(() {
               time = value;
             });
-            addToList();
-          // listTime.add(time);
+           // addToList();
+           listTime.add(time);
           });
 
         },
