@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-// import 'package:starter_namer/main.dart';
-import 'package:starter_namer/screens/timer_screen.dart';
-import 'package:starter_namer/screens/stop_watch.dart';
-import 'package:starter_namer/screens/alarm_screen.dart';
-import 'package:starter_namer/screens/clock_screen.dart';
+import 'package:clock_app_flutter/screens/timer_screen.dart';
+import 'package:clock_app_flutter/screens/stop_watch.dart';
+import 'package:clock_app_flutter/screens/alarm_screen.dart';
+import 'package:clock_app_flutter/screens/clock_screen.dart';
 
 void main() {
   runApp(const HomeLayout());
