@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:starter_namer/screens/layout_screen.dart';
-import 'package:starter_namer/screens/clock_screen.dart';
+import 'package:clock_app_flutter/screens/layout_screen.dart';
+import 'package:clock_app_flutter/screens/clock_screen.dart';
 
 
 
